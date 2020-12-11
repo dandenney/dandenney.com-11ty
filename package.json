@@ -1,0 +1,25 @@
+{
+  "name": "dandenney.com-11ty",
+  "version": "1.0.0",
+  "description": "This thing holds a series of words that I've spewed onto the internet since 2012. It's mainly so that I have a place to learn and play with front-end development, but also to keep my Google juice up against the guy with my name that created an airplane. Seriously, there's other Dan Denneys?",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "npx @11ty/eleventy --input=. --output=_site --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandenney/dandenney.com-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandenney/dandenney.com-11ty/issues"
+  },
+  "homepage": "https://github.com/dandenney/dandenney.com-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
