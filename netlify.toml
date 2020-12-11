@@ -1,3 +1,3 @@
 [build]
   publish = "_site"
-  command = "eleventy --input=src --output=_site --serve"
+  command = "eleventy --input=src --output=_site"
