@@ -1,4 +1,4 @@
-# Personal site using Eleventy
+# Personal site, dandenney.com
 
 This thing holds a series of words that I've spewed onto the internet since 2012. It's mainly so that I have a place to learn and play with front-end development, but also to keep my Google juice up against the guy with my name that created an airplane. Seriously, there's other Dan Denneys?
 
