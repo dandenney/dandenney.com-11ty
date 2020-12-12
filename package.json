@@ -4,8 +4,8 @@
   "description": "This thing holds a series of words that I've spewed onto the internet since 2012. It's mainly so that I have a place to learn and play with front-end development, but also to keep my Google juice up against the guy with my name that created an airplane. Seriously, there's other Dan Denneys?",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy --input=src --output=_site --serve",
-    "dev": "npx @11ty/eleventy --input=src --output=_site --serve",
+    "build": "ELEVENTY_PRODUCTION=true eleventy --input=src --output=_site & NODE_ENV=production postcss src/styles/tailwind.css --o _site/styles/tailwind.css",
+    "dev": "npx @11ty/eleventy --input=src --output=_site --serve && postcss styles/tailwind.css --o _site/styles/tailwind.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +21,10 @@
   "homepage": "https://github.com/dandenney/dandenney.com-11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
   }
 }
