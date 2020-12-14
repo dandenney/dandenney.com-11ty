@@ -6,10 +6,8 @@ module.exports = {
     },
   },
   theme: {
-    extend: {
-      colors: {
-        change: "black",
-      },
+    fontFamily: {
+      sans: ["Gotham A", "Gotham B", "Verdana"],
     },
   },
   variants: {},
